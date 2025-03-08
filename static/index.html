@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simple File Upload ASR</title>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+      <label for="audio">音声ファイル</label>
+      <input type="file" name="audio" id="audio" accept="audio/*"/>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
